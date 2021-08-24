@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 90vw;
+  height: 75vh;
+}
+
+.container{
+ 
+  width: 90vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time{
+  color: white;
+  z-index: 2;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 100px;
+  position: relative;
+}
+
+h1{
+  font-size: 70px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.iphone-img{
+  z-index: -1;
+  position: absolute;
+}
+
+.green{
+  position: absolute;
+  z-index: 0;
+  width: 159px;
+  height: 335px;
+  background-color: green;
+  margin-top: 15px;
+  margin-left: 47px;
+  border-radius: 7%;
+}
+
+.black{
+  position: absolute;
+  z-index: 1;
+  width: 161px;
+  /* height: 338px; */
+  background-color: black;
+  margin-top: -188px;
+  margin-left: 46px;
+  border-radius: 8%;
+}
+
